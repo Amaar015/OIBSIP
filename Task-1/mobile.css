@@ -1,0 +1,140 @@
+/* Navbar Mobile  */
+
+@media (max-width: 900px) {
+  .container-right {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .home {
+    padding: 2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    /* background-color: #fff; */
+    background-color: #222;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 736px) {
+  .home {
+    height: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .home {
+    padding: 2rem 0.5rem;
+    gap: 1rem;
+  }
+  .text h2,
+  .text h2 span {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  #Pixelgrade .text h3 {
+    font-size: 2rem;
+  }
+  #Pixelgrade .text p {
+    font-size: 1.1rem;
+  }
+  .container-right {
+    padding: 1rem;
+  }
+
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .design-image {
+    width: 350px;
+    height: 350px;
+  }
+  .teslass {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    padding: 0.5rem 0.5rem;
+  }
+  .heading h2 {
+    font-size: 1.8rem;
+  }
+  .heading p {
+    font-size: 0.8rem;
+  }
+  .client,
+  .community {
+    padding: 2rem 1rem;
+  }
+
+  #Pixelgrade .text h3 {
+    font-size: 1.8rem;
+  }
+  #Pixelgrade .text p {
+    font-size: 1rem;
+  }
+  .helping .text-left h1 {
+    font-size: 1.8rem;
+  }
+  .teslass {
+    padding: 2rem 0.5rem;
+  }
+  .teslass .teslass-image img {
+    width: 275px;
+    height: 275px;
+  }
+}
+@media (max-width: 340px) {
+  .home .design-image {
+    width: 280px;
+    height: 280px;
+  }
+}
